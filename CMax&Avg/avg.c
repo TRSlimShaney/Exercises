@@ -27,6 +27,6 @@ unsigned int avg(unsigned int num) {
         counter = 0;
     }
 
-    return ((array[0]/3) + (array[1]/3) + (array[2]/3));
+    return (array[0] + array[1] + array[2])/3
 }
 
