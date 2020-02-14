@@ -27,6 +27,8 @@ unsigned int avg(unsigned int num) {
         counter = 0;
     }
 
-    return (array[0] + array[1] + array[2])/3
+    //  watch out for overflow!
+    //  can potentially add two unsigned integers together to overflow return type
+    return (array[0] + array[1] + array[2])/3;
 }
 
